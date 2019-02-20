@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Заголовок документа</title>
+    <meta http-equiv="Content-type" content="text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </head>
+  <body>
+      <div class="container">
+        	<div class="row">
+            			<div class="btn-group">
+                				<button class="btn btn-info btn-lg" >Открыть</button>
+                				<button class="btn btn-info btn-lg" >Сохранить</button>
+                			  <button class="btn btn-info btn-lg" type="button">Закрыть</button>
+                        <button  class="btn btn-info dropdown-toggle btn-lg" type="button" data-toggle="dropdown">
+                          <span class="caret"></span>
+                			 </button>
+          		</div>
+          </div>
+      </div>
+     <div class="container">
+       <div class="row">
+         <div class="btn btn-info">Все</div>
+          <div class="btn btn-info">Все кроме текущего</div>
+       </div>
+     </div>
+      <div class="container">
+          <div class="row">
+          		   <div class="col-lg-3">
+                 			<ul class="nav nav-tabs">
+                          <li class="active"><a href="#tab1" data-toggle="tab">HTML</a></li>
+                          <li><a href="#tab2" data-toggle="tab">CSS</a></li>
+                 			</ul>
+                 			<div  class="tab-content tab_inform">
+                           <div class="tab-pane active" id="tab1">
+                              	Стандартный язык разметки документов во Всемирной паутине. Большинство веб-страниц
+                              содержат описание разметки на языке HTML (или XHTML).
+                           </div>
+                           <div class="tab-pane" id="tab2">
+                             	Формальный язык описания внешнего вида документа, написанного с использованием языка
+                              разметки.
+                            </div>
+                 			</div>
+
+                  </div>
+           </div>
+      </div>
+      <ol class="breadcrumb">
+        <li><a href="#">Книга</a></li>
+        <li><a href="#">Содержание</a></li>
+        <li class="active"><a href="index2.html">Страница №2</a></li>
+     </ol> 
+     <div class="container">
+       <div class="row">
+         <div class="col-md-6">
+            <div class="alert alert-danger" role="alert">
+              Во время операции произошла ошибка.<br>
+              Перейдите по ссылке для получения полной информации –
+              <a href="#" class="alert-link"> Подробнее. </a>
+              <button type="button" class="close"
+              data-dismiss="alert"><span>&times;</span></button>
+           </div>
+         </div>
+       </div>
+     </div> 
+      
+      <div class="container">
+        <div class="row">
+              <p>
+              <abbr title="древесно-стружечная плита" data-toggle="tooltip" data-placement="bottom">ДСП </abbr>– изготавливается методом горячего плоского прессования древесных частиц (стружек
+              и опилок), смешанных со связующим веществом, главным образом синтетическими смолами
+              (формальдегидными смолами).</p>
+              <p><abbr title="древесно-волокнистая плита" data-toggle="tooltip" data-placement="right">ДВП</abbr> – изготавливают методом горячего прессования равномерно размолотой древесной
+              массы, пропитанной синтетическими смолами, с включением в массу некоторых добавок.
+              </p>
+          </div>
+      </div>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action <span class="badge">42</span></a></li>
+                  <li><a href="#">Another action</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">
+        Удалить
+      </button>
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title text-warning" id="myModalLabel">Предупреждение!</h4>
+            </div>
+            <div class="modal-body">
+              <p>Вы точно хотите удалить?</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Да</button>
+              <button type="button" class="btn btn-primary">Нет</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+          $(function () {
+          $('[data-toggle="tooltip"]').tooltip();
+          });
+      </script>
+  </body>
+</html>
