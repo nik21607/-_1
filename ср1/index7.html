@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <title>HTML5</title>
+		 <meta http-equiv="Content-type" charset="utf-8" content="text/html">
+		 <style>
+			 	footer{
+				 line-height: 0;
+				 margin: 7px 0;
+				}
+				footer a{
+				 font-style: italic;
+				}
+				form{
+				 	background: grey;
+				 	width: 20%;
+				 	border: 1px solid #000;
+				 	height: auto;
+				}
+				#calculator{
+				  font-size: 16px;	
+				}
+				#calculator table {
+				  border: solid 1px #000;
+				  background-color: #EEE;
+				  width: 100%;
+				}
+				input[type="text"]{
+					border: 1px solid #000;
+					width: 98%;
+					margin: 2px 2px;
+					padding: 5px 0;
+				}
+				td{
+					width: 35px;
+					height: 30px;
+					background-image: linear-gradient(-90deg,#c4bcbc, white);
+					border: 1px solid grey;
+					text-indent: 13px;
+					box-shadow: inset -9px 0 0 0 #fff;
+				}
+				tr{
+				  border-spacing: 7px;
+				}
+				.second{
+				  border-left: 1px solid #000;
+				}
+				.forth{
+				  box-shadow:inset -45px 0 0 0 #fff;
+				}
+				.third{
+				  box-shadow:inset -7px -14px 0 0 #fff,inset 0 14px 0 0 #fff;
+				}
+	    </style>
+	</head>
+	<body>
+		<header>
+			<img src="frontEndLogo.png">
+			<h1> Технологии Front-End</h1>
+			<ul>
+				<li><a href="#">Главная</a></li>
+			    <li><a href="#">Технологии</a></li>
+				<ul>
+					<li><a href="#">HTML</a></li>
+					<li><a href="#">CSS</a></li>
+					<li><a href="#">Bootstrap</a></li>
+				</ul>
+				<li><a href="#">Калькулятор</a></li>
+				<li><a href="#">Текст</a></li>
+			</ul>
+		</header>
+		<main>
+			<form name="calc" id="calculator">
+				<input type="text" name="input"  class="display">
+				<table>
+					<tbody>
+						<tr>
+							<td class="second">7</td>
+							<td class="second">8</td>
+							<td >9</td>
+							<td class="second">/</td>
+							<td >C</td>
+						</tr>
+						<tr>
+							<td class="second">4</td>
+							<td class="second">5</td>
+							<td >6</td>
+							<td class="second">*</td>
+							<td>&#177;</td>
+						</tr>
+						<tr>
+							<td class="second">1</td>
+							<td class="second">2</td>
+							<td >3</td>
+							<td class="second">-</td>
+							<td rowspan="2" class="third">=</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="forth">0</td>
+							<td >.</td>
+							<td class="second">+</td>
+						</tr>
+					</tbody>
+				</table>
+		   </form>
+		</main>
+	    <footer>
+		    <a href="mailto:mail@mail.com">Пишите: mail@mail</a>
+			<p>&copy Фамилия И.О., год</p>
+		</footer>
+	</body>
+</html>
