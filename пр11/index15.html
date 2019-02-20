@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>Управление элементами</title>
+		<meta http-equiv="Content-type" content="text/html" charset="utf-8">
+		<style type="text/css">
+		 		div{
+					padding: 5px;
+					border: 2px solid black;
+					margin: 5px;
+				}
+				.flex-container{
+					width: 600px;
+					display: flex;
+				}
+				.block_first{
+					flex-basis: 30%;
+				}
+				.block_second{
+					flex-basis: 20%;
+				}
+		</style>
+	</head>
+	<body>
+		<div class="flex-container">
+			<div class="block_second">Flex item 1</div>
+			<div class="block_second">Flex item 2</div>
+			<div class="block_first">Flex item 3</div>
+			<div class="block_first">Flex item 4</div>
+		</div>
+	</body>
+</html>
