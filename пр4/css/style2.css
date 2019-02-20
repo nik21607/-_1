@@ -1,0 +1,18 @@
+h1{
+	color: red;
+}
+p{
+	color: blue;
+}
+.text-red{
+color:red;
+}
+.background-blue{
+background: blue;
+}
+div p{
+	color: red;
+}
+#first{
+	color: blue
+}

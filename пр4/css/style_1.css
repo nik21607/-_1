@@ -1,0 +1,11 @@
+
+p::selection { 
+	    color: #fff;
+	   	background-color: #000;
+      }
+input[required="required"]{
+	color: red;
+}
+input[type="text"]{
+	background: blue;
+}
