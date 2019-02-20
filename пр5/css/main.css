@@ -1,0 +1,32 @@
+.p3{
+	font-family: "Times New Roman",Garamond,serif;
+}
+.p4{
+	font-size: xx-large;
+}
+.p5{
+	font-weight: bolder;
+}
+.p6{
+	font-style: italic;
+}
+.p7{
+	text-transform: capitalize;
+}
+.p8{
+	text-decoration: underline overline line-through;
+}
+.p9{
+	letter-spacing: 20px;
+}
+.p10{
+	line-height: 5px
+}
+.p12{
+	text-shadow: 2px 2px 2px rgb(59,59,59)
+}
+.p11{
+	line-height: 15px;
+	text-align: justify;
+	text-indent: 10px;
+}
