@@ -1,0 +1,38 @@
+.first , .green , .main_button , .button , .blue{
+	padding: 10px 5px;
+	text-decoration: none;
+	color: #fff;
+	border:1px solid #000;
+	width: 100px;
+	text-align: center;
+	font-size: 18px;
+}
+.first  , .green , .button , .blue , .main li{
+	float: left;
+}
+.green , .main_button , .button{
+	background-color: green;
+}
+.first{
+	background-color: red;
+	margin-left: 21px;
+}
+.green{
+	margin-left: 22px;
+}
+.main_button{
+	display: block;
+	position: relative;
+	bottom: -85px;
+	left: -81%;
+}
+.button{
+	margin-left: 1px;
+}
+.blue{
+	background-color:blue;
+	margin-left: 22px;
+}
+li{
+	list-style-type: none;
+}

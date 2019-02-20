@@ -1,0 +1,9 @@
+div , span{
+	border: 2px solid black;
+}
+.block1 , .block , .block2 , .block3 , .block4 , .block5 , .block6{
+	float: left;
+}
+.block4{
+	margin-left: 22px;
+}

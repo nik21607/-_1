@@ -1,0 +1,75 @@
+.OneOne{
+	background-color: red;
+	width: 600px;
+	float: left;
+}
+.OneThree{
+	background-color: green;
+	width: 150px;
+	display: inline-block;
+	vertical-align: top;
+}
+.TwoOne{
+	clear: both;
+	background-color: green;
+	width: 150px;
+	vertical-align: top;
+	float: left;
+}
+.TwoTwo{
+	background-color: red;
+	width: 600px;
+	float: left;
+}
+.red{
+	background-color:#f00;
+	width:230px;
+	float:left;
+}
+.green{
+	background-color: #0f0;
+	width:530px;
+	height: 54px;
+	float: left;
+}
+.blue{
+	background-color: #00f;
+	width: 160px;
+	vertical-align: top;
+	float: right;
+}
+.black{
+	background-color: #000;
+	width: 370px;
+	height: 54px;
+}
+.pink{
+	background-color: #f0f;
+	width:110px;
+	float: right;
+	vertical-align: top;
+}
+.dimblue{
+	background-color: #0ff;
+	width: 110px;
+	float: left;
+}
+.yellow{
+	background-color:#ff0;
+	width: 150px;
+	float: left;
+}
+.main , .aside{
+	height: 60px;
+	background-color: red;
+}
+.main{
+	margin-left: 30%;
+	width: 90px;
+	float: right;
+}
+.aside{
+	width: 20%;
+	float: left;
+	margin-left: 42%;
+}
