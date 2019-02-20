@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>CSS3</title>
+	  <meta http-equiv="Content-type" charset="utf-8" content="text/html">
+	  <style>
+			body{
+				background:#808080;
+			}
+			.container{
+			width:1000px;
+			background:#fff;
+			border-radius:7px;	
+			margin:0 auto;
+			padding:0.1px;
+			position: relative; 
+			}
+			.logo{
+			  margin:5px 0 0 5px;
+			}
+			header .container{
+			 	height:51px;
+			 	margin-top: -8px;	
+			}
+			.information a{
+			 	text-align:center;
+			 }
+			header h1{
+			text-align:center;
+			position:relative;
+			top:-2em;
+		    }
+		    main h2{
+		    	margin-bottom: 0;
+		    	margin-top: 34px;
+		    }
+			li{
+				list-style-type:none;
+			}
+			footer a{
+			  font-style: italic;
+			}
+			.information{
+				text-align:center;
+				line-height:0.1;
+			}
+			.col-lg-3{
+				width:100px;
+			}
+			.col-lg-6{
+				 width:890px;
+				 position:relative;
+				 top:-153px;
+				 left:11%;
+			}
+			.menu{
+				background:#a3a5a8;
+			    border-radius:10%;
+			    margin: 5px 0 0 5px;
+			}
+			.menu_title{
+				position:relative;
+				right:78%
+			}
+			.menu li{
+			position:relative;
+			right:57%;
+			}
+			.border{
+				border: 3px solid #771a16;
+				border-radius:2%;
+				margin:2px 9px 2px -5px;
+			}
+			.border:first-child{
+				margin-top:38px;
+			}
+			button{
+				margin-top: 0;
+			}
+			main .container{
+				height: 620px;
+			}
+			.border p{
+				margin: 0;
+			}
+	  </style>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="logo">
+					<img src="frontEndLogo.png">
+			    </div>
+				<h1> Технологии Front-End</h1>
+			</div>
+		</header>
+		<main>
+			<div class="container">
+				<div class="col-lg-3">
+					<ul class="menu">
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">Технологии</a></li>
+						<ul class="menu_title">
+							<li><a href="#">HTML</a></li>
+							<li><a href="#">CSS</a></li>
+						    <li><a href="#">Bootstrap</a></li>
+					    </ul>
+						<li><a href="#">Калькулятор</a></li>
+						<li><a href="#">Текст</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-6">
+					<div class="border">
+						Какой тег предназначен для создания ссылок:
+						<p><input type="radio"  name="option1" value="a1">&lt;a&gt;</p>
+						<p><input type="radio"  name="option1" value="a1">&lt;a /&gt;</p>
+						<p><input type="radio" name="option2" value="a3">&lt;ref &gt;</p>
+						<p><input type="radio"  name="option1" value="a4">&lt;ref /&gt; </p>
+					</div>
+					<div class="border">
+						Какой тег предназначен для создания нумерованного списка:
+						<p><input type="radio" name="a1" value="">&lt;li&gt;</p>
+						<p><input type="radio" name="a1" value="">&lt;dl&gt;</p>
+						<p><input type="radio" name="a1" value="">&lt;ol&gt;</p>
+						<p><input type="radio" name="a1" value="">&lt;ul&gt;</p>
+					</div>
+					<div class="border">
+						Какой тег предназначен для передачи служебной информации браузеру:
+						<p><input type="radio" name="a1" value="">&lt;info&gt;</p>
+						<p><input type="radio" name="a1" value="">&lt;info /&gt;</p>
+						<p><input type="radio" name="a1" value="">&lt;meta &gt;</p>
+						<p><input type="radio" name="a1" value="">&lt;meta /&gt;</p>
+					</div>
+					<div class="border">
+						Какие теги используются при создании таблицы:
+						<p><input type="checkbox" name="a1" value="">&lt;body&gt;</p>
+						<p><input type="checkbox" name="a1" value="">&lt;td&gt;</p>
+						<p><input type="checkbox" name="a1" value="">&lt;caption&gt;</p>
+						<p><input type="checkbox" name="a1" value="">&lt;column&gt;</p>
+					</div>
+					<div class="border">
+						Какие атрибуты используются при создании форм:
+						<p><input type="checkbox" name="a1" value="">autocomplete</p>
+						<p><input type="checkbox" name="a1" value="">action</p>
+						<p><input type="checkbox" name="a1" value="">charset</p>
+						<p><input type="checkbox" name="a1" value="">validate</p>
+					</div>
+					<button type="submit">Результат</button>
+			  </div>
+		   </div>
+		</main>
+		<footer>
+		   <div class="container">
+				<div class="information">
+					<a href="mailto:mail@mail.com">Пишите: mail@mail</a>
+					<p>&copy Фамилия И.О., год</p>
+				</div>
+		   </div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>CSS3</title>
+	  <meta http-equiv="Content-type" charset="utf-8" content="text/html">
+	  <style>
+			body{
+				background:#808080;
+			}
+			.container{
+			width:1000px;
+			background:#fff;
+			border-radius:7px;	
+			margin:0 auto;
+			padding:0.1px;
+			position: relative; 
+			}
+			.logo{
+			  margin:5px 0 0 5px;
+			}
+			header .container{
+			 	height:51px;
+			 	margin-top: -8px;	
+			}
+			.information a{
+			 	text-align:center;
+			 }
+			header h1{
+			text-align:center;
+			position:relative;
+			top:-2em;
+		    }
+		    main h2{
+		    	margin-bottom: 0;
+		    	margin-top: 34px;
+		    }
+		    main .container{
+		    	height: 250px;
+		    }
+			li{
+				list-style-type:none;
+			}
+			footer a{
+			  font-style: italic;
+			}
+			.information{
+				text-align:center;
+				line-height:0.1;
+			}
+			.col-lg-3{
+				width:100px;
+			}
+			.col-lg-6{
+				 width:890px;
+				 position:relative;
+				 top:-153px;
+				 left:11%;
+			}
+			.menu{
+				background:#a3a5a8;
+			    border-radius:10%;
+			    margin: 5px 0 0 5px;
+			}
+			.menu_title{
+				position:relative;
+				right:78%
+			}
+			.menu li{
+			position:relative;
+			right:57%;
+			}
+			#calculator{
+				font-size: 16px;
+				margin-left: auto;
+				margin-right:auto;
+				margin-top:26px; 
+				width: 20%;
+			}
+			#calculator table {
+			   border: solid 1px #000;
+			   background-color: #EEE;
+			}
+			input[type="text"]{
+				border: 1px solid #000;
+				width: 98%;
+				margin: 2px 2px;
+				padding: 5px 0;
+			}
+			td{
+			   width: 35px;
+			   height: 30px;
+			   background-image: linear-gradient(-90deg,#c4bcbc, white);
+			   border: 1px solid grey;
+			   text-align: center;
+			}
+			tr{
+			 border-spacing: 7px;
+			}
+	  </style>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="logo">
+					<img src="frontEndLogo.png">
+			    </div>
+				<h1> Технологии Front-End</h1>
+			</div>
+		</header>
+		<main>
+			<div class="container">
+				<div class="col-lg-3">
+					<ul class="menu">
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">Технологии</a></li>
+						<ul class="menu_title">
+							<li><a href="#">HTML</a></li>
+							<li><a href="#">CSS</a></li>
+						    <li><a href="#">Bootstrap</a></li>
+					    </ul>
+						<li><a href="#">Калькулятор</a></li>
+						<li><a href="#">Текст</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-6">
+					<form name="calc" id="calculator">
+						<input type="text" name="input"  class="display">
+						<table>
+							<tbody>
+								<tr>
+									<td class="second">7</td>
+									<td class="second">8</td>
+									<td >9</td>
+									<td class="second">/</td>
+									<td >C</td>
+								</tr>
+								<tr>
+									<td class="second">4</td>
+									<td class="second">5</td>
+									<td >6</td>
+									<td class="second">*</td>
+									<td>&#177;</td>
+								</tr>
+								<tr>
+									<td class="second">1</td>
+									<td class="second">2</td>
+									<td >3</td>
+									<td class="second">-</td>
+									<td rowspan="2">=</td>
+								</tr>
+								<tr>
+									<td colspan="2">0</td>
+									<td >.</td>
+									<td class="second">+</td>
+								</tr>
+							</tbody>
+						</table>
+		   		</form>
+			  </div>
+		   </div>
+		</main>
+		<footer>
+		   <div class="container">
+				<div class="information">
+					<a href="mailto:mail@mail.com">Пишите: mail@mail</a>
+					<p>&copy Фамилия И.О., год</p>
+				</div>
+		   </div>
+		</footer>
+	</body>
+</html>
