@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Верстка</title>
+		<meta http-equiv="Content-type" charset="utf-8" content="text/html">
+		 <style>
+		 	body{
+		 		background:#808080;
+		 	}
+		 	.logo{
+				  margin:5px 0 0 5px;
+			}
+			.container{
+				border-radius: 7px;
+			}
+			header .container{
+				margin-top: -8px;
+				height: 60px;
+			}
+			span{
+				border-bottom: 1px dotted #000;
+			}
+		 	@media(min-width: 1132px){
+		         .container{
+			 	width:1000px;
+			 	background:#fff;
+			 	margin:0 auto;
+			 	padding:1px;
+			 	 	}
+
+			 	 	.menu li{
+			   	float: left;
+			   }
+			   .menu{
+			   	display: flex;
+			   	justify-content: center;
+			   	transform: translate(0, -79px);
+			   }
+			   .menu li a{
+			   	margin: 0 5px;
+			   }
+			   main p{
+			   	clear: both;
+			   }
+			   main .container{
+			   	height: 200px;
+			   }
+		 	}
+		 	footer a{
+		 		font-style: italic;
+		 	}
+			h1{text-align:center;
+				position:relative;
+			    top:-62px;
+		     }
+			li{
+				list-style-type:none;
+			}
+			.information{
+				text-align:center;
+			 line-height:0.1px;
+			}
+			main p{
+				width: 100%;
+				text-indent: 28px;
+			}
+		
+		    @media(max-width:1132px){
+				.container{
+					width: 100%;
+					margin-top: 0;
+				    margin-left: -7px;
+					background: #fff;
+					padding: 1px 7.3px;
+					float: left;
+					}
+				   .menu li{
+				   	float: left;
+				   }
+				   .menu{
+				   	display: flex;
+				   	justify-content: center;
+				   	transform: translate(0, -84px);
+				   }
+				   .menu li a{
+				   	margin: 0 5px;
+				   }
+				   main p{
+				   	clear: both;
+				   }
+			   }
+			@media (max-width: 550px){
+				.logo{
+					position: relative;
+					top:-32px;
+					padding-top: 29px;
+				}
+			     header .container{
+				   	height: auto;
+				   }
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+			<div class="logo">
+				<img src="img/frontEndLogo.png">
+			</div>
+			<h1> Технологии Front-End</h1>
+			<ul class="menu">
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Технологии</a></li>
+				<li><a href="#">Калькулятор</a></li>
+				<li><a href="#">Текст</a></li>
+			</ul>
+		</div>
+		</header>
+		<main>
+			<div class="container">
+				<p>Курс предназначен для <i>широкого</i> круга слушателей, которые хотели бы освоить такие <i>Web-технологии </i>как <strong><span>HTML</span>, <span>CSS</span>, Bootstrap</strong>, но не имеют предварительных профильных знаний в этой области. <i>Предварительные знания/навыки:</i>
+				уверенное пользование ПК и программным обеспечением. Практическая робота будет проводится с использованием текстового редактора Notepad++.</p>
+			</div>
+		</main>
+		<footer>
+			   <div class="container">
+					<div class="information">
+						<a href="mailto:mail@mail.com">Пишите: mail@mail</a>
+						<p>&copy Фамилия И.О., год</p>
+					</div>
+			   </div>
+		</footer>
+	</body>
+</html>

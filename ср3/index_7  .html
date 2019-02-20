@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Верстка</title>
+		<meta http-equiv="Content-type" charset="utf-8" content="text/html">
+		 <style>
+			 	body{
+			 		background:#808080;
+			 	}
+			 	.logo{
+					  margin:5px 0 0 5px;
+				}
+				.container{
+					border-radius: 7px;
+				}
+				header .container{
+					margin-top: -8px;
+					height: 60px;
+				}
+			 	@media(min-width: 1132px){
+			         .container{
+				 	width:1000px;
+				 	background:#fff;
+				 	margin:0 auto;
+				 	padding:1px;
+				 	 	}
+				 	.menu li{
+				   	float: left;
+				   	
+				   }
+				   .menu{
+				   	display: flex;
+				   	justify-content: center;
+				   	transform: translate(0, -79px);
+				   }
+				   .menu li a{
+				   	margin: 0 5px;
+				   } 
+				   }  
+			 	footer a{
+			 		font-style: italic;
+			 	}
+				h1{text-align:center;
+					position:relative;
+				    top:-62px;
+			     }
+				li{
+					list-style-type:none;
+				}
+				.information{
+					text-align:center;
+				   line-height:0.1px;
+		        }
+		        #calculator{
+				font-size: 16px;
+				margin-left: auto;
+				margin-right:auto;
+				margin-top:26px; 
+				width: 180px;
+				padding-bottom:13px;
+				}
+				#calculator table {
+				   border: solid 1px #000;
+				   background-color: #EEE;
+				}
+				input[type="text"]{
+					border: 1px solid #000;
+					width: 98%;
+					margin: 2px 2px;
+					padding: 5px 0;
+				}
+				td{
+				   width: 35px;
+				   height: 30px;
+				   background-image: linear-gradient(-90deg,#c4bcbc, white);
+				   border: 1px solid grey;
+				   text-align: center;
+				}
+				tr{
+				 border-spacing: 7px;
+				}
+			    @media(max-width:1132px){
+					.container{
+					width: 100%;
+					margin-top: 0;
+				    margin-left: -7px;
+					background: #fff;
+					padding: 1px 7.3px;
+					float: left;
+				   }
+				   .menu li{
+				   	float: left;
+				   }
+				   .menu{
+				   	display: flex;
+				   	justify-content: center;
+				   	transform: translate(0, -84px);
+				   }
+				   .menu li a{
+				   	margin: 0 5px;
+				   }
+				   main p{
+				   	clear: both;
+				   }
+			   }
+			@media (max-width: 550px){
+				.logo{
+					position: relative;
+					top:-32px;
+					padding-top: 29px;
+				}
+			     header .container{
+				   	height: auto;
+				   }
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="logo">
+					<img src="img/frontEndLogo.png">
+				</div>
+				<h1> Технологии Front-End</h1>
+				<ul class="menu">
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Технологии</a></li>
+					<li><a href="#">Калькулятор</a></li>
+					<li><a href="#">Текст</a></li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<div class="container">
+				 <form name="calc" id="calculator">
+						<input type="text" name="input"  class="display">
+						<table>
+							<tbody>
+								<tr>
+									<td class="second">7</td>
+									<td class="second">8</td>
+									<td >9</td>
+									<td class="second">/</td>
+									<td >C</td>
+								</tr>
+								<tr>
+									<td class="second">4</td>
+									<td class="second">5</td>
+									<td >6</td>
+									<td class="second">*</td>
+									<td>&#177;</td>
+								</tr>
+								<tr>
+									<td class="second">1</td>
+									<td class="second">2</td>
+									<td >3</td>
+									<td class="second">-</td>
+									<td rowspan="2">=</td>
+								</tr>
+								<tr>
+									<td colspan="2">0</td>
+									<td >.</td>
+									<td class="second">+</td>
+								</tr>
+							</tbody>
+						</table>
+		   		</form>
+			</div>
+		</main>
+		<footer>
+			   <div class="container">
+					<div class="information">
+						<a href="mailto:mail@mail.com">Пишите: mail@mail</a>
+						<p>&copy Фамилия И.О., год</p>
+					</div>
+			   </div>
+		</footer>
+	</body>
+</html>
