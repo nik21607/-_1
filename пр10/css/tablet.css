@@ -1,0 +1,22 @@
+.col-lg-1{
+	width: 25%;
+	margin: 0 auto;
+	float: left;
+
+}
+.col-lg-2{
+	width: 49.8%;
+	margin: 0 auto;
+	float: left;
+}
+.col-md-1{
+	position: relative;
+		 top: -19.6px;
+		 left: 2px;
+	     float:right;
+}
+.footer{
+	clear: right;
+	position: relative;
+	top:-20px;
+}
