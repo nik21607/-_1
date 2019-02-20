@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Заголовок документа</title>
+		<meta http-equiv="Content-type" content="text/html" charset="utf-8">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		 <form action="post">
+				Ф.И.О.:<input type="text" name="name" value=""><br>
+				Логин:<input type="text" name="login" value=""><br>
+				Пароль:<input type="text" name="password" value=""><br>
+				Повторите пароль:<input type="text" name="password" value=""><br>
+				Пол:
+				<input type="radio" name="М" value="М">М
+				<input type="radio" name="Ж" value="Ж">Ж <br>
+				<button type="submit">Регистрация</button>
+			</form>
+			<form action="post">
+				Введите email:<input type="text" name="email" value="Не email"><br>
+				Введите url:<input type="text" name="url" value="Не url"><br>
+				Введите телефон:<input type="text" name="telephone" value=""><br>
+				Введите число:<input type="text" name="number" value=10><br>
+				Выберите число:<input type="range" name="points" min="0" max="10" /><br>
+			    <input type="search" name="search" value="Поиск по сайту" /><br>
+				Выберите цвет:<input type="color" name="color"  /><br>
+				<button type="submit">Отправить</button>
+			</form>
+				<textarea cols="30" rows="10">Поле <em>textarea</em> представляет собой элемент формы для создания области, в которую можно
+			вводить несколько строк текста. В отличие от тега input в текстовом поле допустимо
+			делать переносы строк, они сохраняются при отправке данных на сервер.</textarea>
+			<br>
+			<select name="animal">
+				<option value="cat">Кошка</option>
+				<option value="dog" selected="selected">
+				Собака</option>
+				<option value="mouse">Мыш</option>
+				<option value="eliphant">Слон</option>
+				<option value="lione">Лев</option>
+				<option value="tiger">Тигр</option>
+			</select>
+			<br>
+			<textarea  cols="30" rows="10">Поле <em>textarea</em>  представляет собой элемент формы для создания области, в которую можно
+			вводить несколько строк текста. В отличие от тега input в текстовом поле допустимо
+			делать переносы строк, они сохраняются при отправке данных на сервер.</textarea>
+			<br>
+			<select name="animal">
+				<option value="cat" selected="selected">
+				Кошка</option>
+			</select>
+			<select name="food">
+				<optgroup label="Фрукты">
+					<option value="apple">Яблоко</option>
+					<option value="pie">Груша</option>
+					<option value="pie">Персик</option>
+				</optgroup>
+				<optgroup label="Овощи">
+					<option value="potato">Картошка</option>
+					<option value="tomato">Помидор</option>
+					<option value="cucumber">Огурец</option>
+				</optgroup>
+			</select>
+			<br>
+			<video width="500" height="500" controls autoplay>
+				<source src="ExampleVideo.720x480.mp4" type="video/mp4">
+			</video>
+			<video width="500" height="500"    controls muted>
+				<source src="ExampleVideo.720x480.mp4" type="video/mp4">
+			</video>
+			<video width="500" height="500"    controls loop>
+				<source src="ExampleVideo.720x480.mp4" type="video/mp4">
+			</video>
+			<video width="500" height="500" src="ExampleVideo.720x480.mp4" controls="controls"
+			preload="auto"></video>
+			<audio width="500" height="500" src="ExampleVideo.720x480.mp4" controls="controls"></audio>
+	</body>
+</html>
