@@ -1,0 +1,86 @@
+body{
+background:#808080;
+}
+.container{
+width:1000px;
+background:#fff;
+border-radius:7px;	
+margin:0 auto;
+padding:0.1px;
+position: relative; 
+}
+.logo{
+margin:13px 0 0 5px;
+}
+.information a{
+text-align:center;
+}
+h1{
+text-align:center;
+position:relative;
+top:-2.3em;
+}
+ul{
+list-style-type:none;
+position: absolute;
+top: 1.6em;
+left: 32%;
+}
+.information{
+text-align:center;
+line-height:0.1;
+}
+.menu  li{
+float: left;
+margin: 0 4px;
+}
+header .container{
+height: 65px;
+}
+.calculator {
+width: 320px;
+display: flex;
+flex-flow: wrap;
+padding: 5px 0 16px;
+margin:auto; 
+}
+.item {
+box-sizing: border-box;
+height: 64px;
+width: 64px;
+margin-top: 10px;
+background-image: linear-gradient(-90deg,#c4bcbc, white);
+text-align-color: center;
+cursor: pointer;
+border: solid 2px silver;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#screen {
+flex: 100%;
+margin: 0;
+padding-right: 7px;
+height: 40px;
+color: black;
+border: 1px grey solid;
+border-radius: 3px;
+}
+#delete {
+font-size: 1em;
+}
+footer a{
+font-style: italic;
+}
+.title{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: flex-start;
+width: 80%;
+}
+.table .item{
+height: 8em;
+}
+  
