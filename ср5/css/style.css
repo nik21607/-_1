@@ -1,0 +1,59 @@
+@import url(all.min.css);
+	footer{
+		margin-top:53px;
+ 		text-align:center;
+        line-height:35px;
+ 	}
+ 	.title , .h2{
+ 		text-align: center;
+ 	}
+ 	h4{
+ 		color:#000;
+ 		padding: 0 10px;
+ 		font-weight: 100;
+ 		margin: 25px 10px;
+ 	}
+ 	h1{
+ 		font-weight: 400;
+ 	}
+ 	.logo img{
+ 		border:1px solid #808080;
+ 		padding:5px 15px;
+ }
+
+ .navbar{
+ 	margin:10px 45px;
+ }
+ .menu-left{
+ 	background:#87cefa;
+ 	border-radius:10px;
+ 
+ }
+ .top{
+ 	float:left;
+ 	border-radius:10%;
+ 	background:#38c7bd;
+ 	color:#fff;
+ 	padding:8px 8px 8px 8px;
+ }
+ .top:hover , .top:focus{
+ 	text-decoration:none;
+ 	color:#fff;
+ }
+.code{
+	padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+    border-bottom: none;
+}
+b{
+	font-style: italic;
+}
+main span{
+	border-bottom:2px dotted;
+}
+.navbar-light .navbar-toggler-icon{
+   border:none;
+}
